@@ -1,0 +1,79 @@
+//====================================================================================================
+.page {
+  h1 {
+    margin: toRem(12) 0;
+    font-size: toRem(24);
+    font-weight: 900;
+    line-height: 1.4;
+    font-family: "ProximaNova";
+
+    @media (min-width: $mobile) {
+      font-size: toRem(32);
+    }
+
+    @media (min-width: $tablet) {
+      font-size: toRem(44);
+    }
+  }
+
+  p {
+    margin: toRem(12) 0;
+    line-height: 1.4;
+
+    &::first-letter {
+      color: var(--color-accent);
+    }
+
+    @media (min-width: $mobile) {
+      margin: toRem(24) 0;
+      font-size: toRem(24);
+    }
+  }
+  &__img {
+    margin: toRem(24) 0;
+    height: toRem(300);
+    overflow: hidden;
+    border-radius: toRem(24);
+    border: 2px solid var(--color-accent);
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      background-position: bottom;
+    }
+  }
+}
+
+section {
+  margin-top: toRem(32);
+  margin-bottom: toRem(32);
+
+  figure {
+    flex: 1 0 auto;
+    text-align: center;
+    margin: toRem(24);
+    img {
+      width: 100%;
+      min-width: 200px;
+      max-width: 400px;
+      border-radius: toRem(24);
+      border: 2px solid var(--color-accent);
+    }
+  }
+
+  @media (min-width: $mobile) {
+    margin-top: toRem(42);
+    margin-bottom: toRem(42);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: toRem(24);
+
+    &:nth-of-type(odd) {
+      flex-direction: row-reverse;
+    }
+  }
+}
+//====================================================================================================

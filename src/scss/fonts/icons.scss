@@ -1,0 +1,153 @@
+%ic {
+	font-family: "icons";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+	&::before {
+		@extend %ic;
+	}
+}
+._icon-dice:before {
+  content: "\e92a";
+}
+._icon-pacman:before {
+  content: "\e92b";
+}
+._icon-spades:before {
+  content: "\e92c";
+}
+._icon-clubs:before {
+  content: "\e92d";
+}
+._icon-diamonds:before {
+  content: "\e92e";
+}
+._icon-bullhorn:before {
+  content: "\e92f";
+}
+._icon-coin-dollar:before {
+  content: "\e93b";
+}
+._icon-coin-euro:before {
+  content: "\e93c";
+}
+._icon-coin-pound:before {
+  content: "\e93d";
+}
+._icon-credit-card:before {
+  content: "\e93f";
+}
+._icon-phone:before {
+  content: "\e942";
+}
+._icon-location:before {
+  content: "\e947";
+}
+._icon-bell:before {
+  content: "\e951";
+}
+._icon-display:before {
+  content: "\e956";
+}
+._icon-mobile:before {
+  content: "\e958";
+}
+._icon-user:before {
+  content: "\e971";
+}
+._icon-user-tie:before {
+  content: "\e976";
+}
+._icon-spinner6:before {
+  content: "\e97f";
+}
+._icon-search:before {
+  content: "\e986";
+}
+._icon-cog:before {
+  content: "\e994";
+}
+._icon-pie-chart:before {
+  content: "\e99a";
+}
+._icon-rocket:before {
+  content: "\e9a5";
+}
+._icon-fire:before {
+  content: "\e9a9";
+}
+._icon-target:before {
+  content: "\e9b3";
+}
+._icon-earth:before {
+  content: "\e9ca";
+}
+._icon-link:before {
+  content: "\e9cb";
+}
+._icon-star-empty:before {
+  content: "\e9d7";
+}
+._icon-star-half:before {
+  content: "\e9d8";
+}
+._icon-star-full:before {
+  content: "\e9d9";
+}
+._icon-heart:before {
+  content: "\e9da";
+}
+._icon-cross:before {
+  content: "\ea0f";
+}
+._icon-checkmark:before {
+  content: "\ea10";
+}
+._icon-arrow-right2:before {
+  content: "\ea3c";
+}
+._icon-circle-right:before {
+  content: "\ea42";
+}
+._icon-ctrl:before {
+  content: "\ea50";
+}
+._icon-facebook2:before {
+  content: "\ea91";
+}
+._icon-instagram:before {
+  content: "\ea92";
+}
+._icon-whatsapp:before {
+  content: "\ea93";
+}
+._icon-telegram:before {
+  content: "\ea95";
+}
+._icon-twitter:before {
+  content: "\ea96";
+}
+._icon-youtube:before {
+  content: "\ea9d";
+}
+._icon-youtube2:before {
+  content: "\ea9e";
+}
+._icon-vimeo:before {
+  content: "\eaa0";
+}
+._icon-appleinc:before {
+  content: "\eabe";
+}
+._icon-android:before {
+  content: "\eac0";
+}
+._icon-windows:before {
+  content: "\eac1";
+}

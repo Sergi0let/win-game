@@ -1,0 +1,53 @@
+// Заголовки, загальні БЕМ блоки та інше...
+.header__logo,
+.btn-primary,
+.btn-secondary {
+  padding: toRem(12);
+
+  font-size: toRem(16);
+  line-height: 1.2;
+  font-weight: 700;
+
+  &::before {
+    margin-right: toRem(8);
+  }
+
+  @media (min-width: $mobile) {
+    padding: toRem(16) toRem(24);
+  }
+}
+
+.header__logo {
+  background: var(--color-top);
+  transition: color 0.3s;
+
+  &:hover {
+    color: var(--color-accent);
+  }
+}
+
+.btn-primary {
+  color: var(--bg-main);
+  background: var(--bg-accent);
+  transition:
+    background 0.3s,
+    color 0.3s;
+
+  &:hover {
+    color: var(--color-main);
+    background: var(--bg-accent-hover);
+  }
+}
+
+.btn-secondary {
+  color: var(--bg-main);
+  background: var(--color-accent);
+  transition:
+    background 0.3s,
+    color 0.3s;
+
+  &:hover {
+    color: var(--color-main);
+    background: var(--bg-accent-hover);
+  }
+}
